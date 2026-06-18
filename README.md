@@ -45,10 +45,10 @@
 | **總計** | **7,194 筆** | **3,950 筆** | **11,144 筆** | **35.44%** |
 
 ### 💻 邏輯斯迴歸分析模型報表 (Logistic Regression Output)
-* **Dependent Variable: Fight_Numeric
+* **Dependent Variable: Fight_Numeric**
   *Number of Observations: 11,144 | Df Residuals: 11,142
   *LLR p-value: 2.086e-60 (Extremely Significant)
-* **Model Parameter Estimates:
+* **Model Parameter Estimates:**
   *Intercept (const): coef = -0.3339 | z = -13.223 | P>|z| = 0.000 | 95% CI = [-0.383, -0.284]
   *Bicycle Helmet Use (Helmet_Numeric): coef = -0.6706 | z = -16.154 | P>|z| = 0.000 | 95% CI = [-0.752, -0.589]
   
