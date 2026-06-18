@@ -1,7 +1,7 @@
 # 2026SpringStat2-Cycle4
 # Safety-First Behavior Pattern: Exploring the Association Between Bicycle Helmet Use and Interpersonal Violence Involvement Among Adolescents
 
-**Presentation Video Link** -[ [Insert Your Individual Presentation Video Link Here / 請在此貼上您的個人影片連結]](https://youtu.be/yuUtS3Jp8Tw?si=c0rrre9NQL4BfHMk)
+**Presentation Video Link** -[ [My Presentation Video Link]](https://youtu.be/yuUtS3Jp8Tw?si=c0rrre9NQL4BfHMk)
 
 ## 1. Student Information / 個人基本資料
 
