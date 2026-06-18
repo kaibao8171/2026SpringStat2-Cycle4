@@ -45,7 +45,7 @@
 | **總計** | **7,194 筆** | **3,950 筆** | **11,144 筆** | **35.44%** |
 
 ### 💻 邏輯斯迴歸分析模型報表 (Logistic Regression Output)
-LLogit Regression Results
+Logit Regression Results
 
 Dep. Variable: Fight_Numeric
 No. Observations: 11144
