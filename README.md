@@ -45,31 +45,14 @@
 | **總計** | **7,194 筆** | **3,950 筆** | **11,144 筆** | **35.44%** |
 
 ### 💻 邏輯斯迴歸分析模型報表 (Logistic Regression Output)
-[LOGIT REGRESSION RESULTS]
-DEPENDENT VARIABLE: Fight_Numeric
-NUMBER OF OBSERVATIONS: 11,144
-MODEL TYPE: Logit
-DEGREES OF FREEDOM RESIDUALS: 11,142
-ESTIMATION METHOD: MLE (Maximum Likelihood Estimation)
-DEGREES OF FREEDOM MODEL: 1
-PSEUDO R-SQUARED: 0.01855
-LOG-LIKELIHOOD VALUE: -7111.0
-LLR P-VALUE: 2.086e-60 (Extremely Significant)
+Logit Regression Results
+Dep. Variable: Fight_Numeric | No. Observations: 11144 | Model: Logit
+Df Residuals: 11142 | Df Model: 1 | Pseudo R-squ.: 0.01855
+Log-Likelihood: -7111.0 | LL-Null: -7245.4 | LLR p-value: 2.086e-60
 
-[MODEL PARAMETERS AND COEFFICIENTS]
-INTERCEPT (const):
-Coefficient (coef): -0.3339
-Standard Error (std err): 0.025
-Z-statistic (z): -13.223
-P-value (P > |z|): 0.000
-95% Confidence Interval: [-0.383, -0.284]
-BICYCLE HELMET USE (Helmet_Numeric):
-Coefficient (coef): -0.6706
-Standard Error (std err): 0.042
-Z-statistic (z): -16.154
-P-value (P > |z|): 0.000 (Highly Significant)
-
-95% Confidence Interval: [-0.752, -0.589]
+Parameter Estimates
+const: coef = -0.3339 | std err = 0.025 | z = -13.223 | P>|z| = 0.000 | 95% CI = [-0.383, -0.284]
+Helmet_Numeric: coef = -0.6706 | std err = 0.042 | z = -16.154 | P>|z| = 0.000 | 95% CI = [-0.752, -0.589]
 ### 🔑 勝算比與信賴區間分析 (Odds Ratio Results)
 
 | 評估指標 | 統計數值 (Value) | 95% 信賴區間 (95% CI) |
