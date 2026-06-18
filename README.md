@@ -91,7 +91,7 @@ This robust correlation strongly supports the "Safety-First Persona" hypothesis,
 ## 🎨 6. Key Data Visualizations / 核心數據視覺化展示
 
 ### Figure 1: Proportional Stacked Bar Chart
-![Bicycle Helmet Use vs Physical Fighting - Bar Chart](./helmet_vs_fighting_bar.png)
+outputs/figures/helmet_fighting_plot.png
 
 ### Figure 2: Mosaic Plot of Sample Counts
-![Bicycle Helmet Use vs Physical Fighting - Mosaic Plot](./helmet_vs_fighting_mosaic.png)
+outputs/figures/helmet_vs_fighting_analysis.png
