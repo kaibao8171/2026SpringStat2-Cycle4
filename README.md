@@ -45,3 +45,56 @@
 | **總計** | **7,194 筆** | **3,950 筆** | **11,144 筆** | **35.44%** |
 
 ### 💻 邏輯斯迴歸分析模型報表 (Logistic Regression Output)
+Logit Regression Results                           
+==============================================================================
+Dep. Variable:          Fight_Numeric   No. Observations:                11144
+Model:                          Logit   Df Residuals:                    11142
+Method:                           MLE   Df Model:                            1
+Pseudo R-squ.:                0.01855   Log-Likelihood:                -7111.0
+converged:                       True   LL-Null:                       -7245.4
+Covariance Type:            nonrobust   LLR p-value:                 2.086e-60
+                 coef    std err          z      P>|z|      [0.025      0.975]
+const            -0.3339      0.025    -13.223      0.000      -0.383      -0.284
+Helmet_Numeric   -0.6706      0.042    -16.154      0.000      -0.752      -0.589
+
+### 🔑 勝算比與信賴區間分析 (Odds Ratio Results)
+
+| 評估指標 | 統計數值 (Value) | 95% 信賴區間 (95% CI) |
+| :--- | :---: | :---: |
+| **迴歸係數 ($\beta_1$)** | -0.6706 | [-0.752, -0.589] |
+| **勝算比 (Odds Ratio, $OR$)** | **0.5114** | **[0.4714, 0.5549]** |
+
+---
+
+### 📝 Final Interpretation & Conclusions / 最終決策與學術解讀
+
+#### English Version
+Based on our Logistic Regression analysis on $n = 11,144$ valid adolescent samples from the YRBS 2007 dataset, we found an extremely statistically significant negative association between bicycle helmet use and involvement in physical fighting ($Z = -16.15$, $P = 2.09 \times 10^{-60} \ll 0.05$). We strongly reject the null hypothesis ($H_0: \beta_1 = 0$).
+
+Students who consistently wore bicycle helmets exhibited a significantly lower physical fighting rate (**26.81%**) compared to those who never wore helmets (**41.73%**). Our regression model yielded an **Odds Ratio ($OR$) of 0.5114** ($95\%$ Confidence Interval: $[0.4714, 0.5549]$). This indicates that adolescents who practice safety compliance (wearing helmets) have **0.51 times the odds** of engaging in physical fighting compared to their non-compliant peers—representing an approximate **49% reduction in the odds of violence involvement**.
+
+This robust correlation strongly supports the "Safety-First Persona" hypothesis, suggesting that preventative safety compliance and violent behavioral risk tend to cluster within individual behavioral profiles.
+
+*As this is an observational study using cross-sectional survey data, these findings establish a strong statistical association but do not imply direct causality.*
+
+---
+
+#### 中文版
+本研究針對 2007 年 YRBS 數據中篩選出的 11,144 筆有效青少年樣本進行邏輯斯迴歸分析（Logistic Regression），得到以下最終結論：
+
+1. **統計與實質顯著性：** 迴歸分析結果顯示，配戴安全帽習慣對打架暴力行為具有極端顯著的負向影響（檢定統計量 $Z = -16.154$，$P$ 值為 $2.086 \times 10^{-60} \ll 0.05$），我們強烈拒絕虛無假設。總是配戴安全帽之青少年的打架比例（**26.81%**）顯著低於從不配戴者（**41.73%**）。
+2. **勝算比（Odds Ratio）與安全人格洞察：** 邏輯斯迴歸模型算出的 **勝算比（OR）為 0.5114**（95% 信賴區間為 $[0.4714, 0.5549]$）。這意味著有配戴安全帽習慣的青少年，其參與身體打架的勝算（Odds）僅有從不配戴者的 **0.51 倍**，相當於**降低了近 49% 的暴力參與風險**。此數據有力地支持了「安全守規人格（Safety-First Persona）」假說，說明規律的安全守法行為與低暴力傾向在青少年群體中具有高度共存性。
+
+*防禦性宣告：由於本研究採用的是觀察性橫斷面研究資料（Observational Cross-Sectional Data），此處結果僅能證實青少年的「安全帽配戴守規行為」與「打架衝突」之間存在強烈的統計相關性（Association），絕不宣稱其具備因果關係（Causality），潛在的第三方混淆變數（如家庭教養、同儕環境等）必須一併納入考量。*
+
+---
+
+## 🎨 6. Key Data Visualizations / 核心數據視覺化展示
+
+*(Our high-resolution visualization showcases a beautifully unified Morandi pastel palette: Light Blue for "No Fighting" and Light Red for "Yes, Fought".)*
+
+### Figure 1: Proportional Stacked Bar Chart
+![Bicycle Helmet Use vs Physical Fighting - Bar Chart](./helmet_vs_fighting_bar.png)
+
+### Figure 2: Mosaic Plot of Sample Counts
+![Bicycle Helmet Use vs Physical Fighting - Mosaic Plot](./hel
