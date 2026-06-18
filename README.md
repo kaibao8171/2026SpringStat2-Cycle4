@@ -45,17 +45,26 @@
 | **總計** | **7,194 筆** | **3,950 筆** | **11,144 筆** | **35.44%** |
 
 ### 💻 邏輯斯迴歸分析模型報表 (Logistic Regression Output)
-Logit Regression Results                           
-==============================================================================
-Dep. Variable:          Fight_Numeric   No. Observations:                11144
-Model:                          Logit   Df Residuals:                    11142
-Method:                           MLE   Df Model:                            1
-Pseudo R-squ.:                0.01855   Log-Likelihood:                -7111.0
-converged:                       True   LL-Null:                       -7245.4
-Covariance Type:            nonrobust   LLR p-value:                 2.086e-60
-                 coef    std err          z      P>|z|      [0.025      0.975]
-const            -0.3339      0.025    -13.223      0.000      -0.383      -0.284
-Helmet_Numeric   -0.6706      0.042    -16.154      0.000      -0.752      -0.589
+LLogit Regression Results
+
+Dep. Variable: Fight_Numeric
+No. Observations: 11144
+Model: Logit
+Df Residuals: 11142
+Method: MLE
+Df Model: 1
+Pseudo R-squ.: 0.01855
+Log-Likelihood: -7111.0
+converged: True
+LL-Null: -7245.4
+Covariance Type: nonrobust
+LLR p-value: 2.086e-60
+
+const coef: -0.3339
+Helmet_Numeric coef: -0.6706
+z-value: -16.154
+P>|z|: 0.000 (極端顯著)
+95% 信賴區間: [-0.752, -0.589]
 
 ### 🔑 勝算比與信賴區間分析 (Odds Ratio Results)
 
