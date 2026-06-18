@@ -46,47 +46,27 @@
 
 ### 💻 邏輯斯迴歸分析模型報表 (Logistic Regression Output)
 [LOGIT REGRESSION RESULTS]
-
 DEPENDENT VARIABLE: Fight_Numeric
-
 NUMBER OF OBSERVATIONS: 11,144
-
 MODEL TYPE: Logit
-
 DEGREES OF FREEDOM RESIDUALS: 11,142
-
 ESTIMATION METHOD: MLE (Maximum Likelihood Estimation)
-
 DEGREES OF FREEDOM MODEL: 1
-
 PSEUDO R-SQUARED: 0.01855
-
 LOG-LIKELIHOOD VALUE: -7111.0
-
 LLR P-VALUE: 2.086e-60 (Extremely Significant)
 
 [MODEL PARAMETERS AND COEFFICIENTS]
-
 INTERCEPT (const):
-
 Coefficient (coef): -0.3339
-
 Standard Error (std err): 0.025
-
 Z-statistic (z): -13.223
-
 P-value (P > |z|): 0.000
-
 95% Confidence Interval: [-0.383, -0.284]
-
 BICYCLE HELMET USE (Helmet_Numeric):
-
 Coefficient (coef): -0.6706
-
 Standard Error (std err): 0.042
-
 Z-statistic (z): -16.154
-
 P-value (P > |z|): 0.000 (Highly Significant)
 
 95% Confidence Interval: [-0.752, -0.589]
