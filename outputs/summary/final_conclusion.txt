@@ -1,0 +1,73 @@
+======================================================================
+PROJECT CYCLE 4: FINAL INDIVIDUAL PROJECT SUMMARY (ERIC) English.ver
+======================================================================
+
+[INDIVIDUAL CONTRIBUTIONS & ROLE]
+- Student Name: Jian Kai-Yi (Eric) / 簡愷毅
+- Student ID: 113370201
+- Core Responsibilities: Formulated research question, executed YRBS 2007 
+  data cleaning, built Logistic Regression model, conducted Odds Ratio (OR) 
+  inference, and created optimized standalone data visualizations.
+
+[KEY STATISTICAL FINDINGS]
+- Dataset: YRBS 2007 (Valid N = 11,144)
+- Primary Explanatory Variable (X): Bicycle Helmet Use (1: Always, 0: Never)
+- Primary Response Variable (Y): Physical Fighting Involvement (1: Yes, 0: No)
+- Physical Fighting Rates:
+  * Non-Helmet Users (Never Wore): 41.73% (2,692 / 6,451)
+  * Helmet Users (Always Wore): 26.81% (1,258 / 4,693)
+- Statistical Inference (Logit Model):
+  * Regression Coefficient (Beta_1): -0.6706
+  * Z-statistic: -16.154, P-value: 2.086e-60 (Strongly Reject H0)
+- Odds Ratio (OR) Analysis:
+  * Odds Ratio (OR): 0.5114
+  * 95% Confidence Interval for OR: [0.4714, 0.5549]
+
+[BEHAVIORAL INSIGHT: SAFETY-FIRST PERSONA]
+Exploratory and model analysis reveals a significant behavioral alignment:
+1. Risk Reduction: Adolescents who consistently practice safety compliance 
+   (wearing helmets) exhibit 0.51 times the odds of engaging in physical 
+   fighting compared to non-compliant peers—a ~49% reduction in violence odds.
+2. Behavioral Clustering: Compliance with safety regulations and low-violence 
+   tendencies are highly co-dependent, strongly supporting the existence of a 
+   systemic "Safety-First Persona" among youth.
+
+[DISCLAIMER]
+This study is based on cross-sectional observational data. Results 
+confirm a robust statistical association but do not imply direct causality.
+======================================================================
+PROJECT CYCLE 4: FINAL INDIVIDUAL PROJECT SUMMARY (ERIC) Chinese.ver
+======================================================================
+
+[個人貢獻與角色]
+- 學生姓名：簡愷毅 (Eric)
+- 學生學號：113370201
+- 核心職責：獨立統籌研究架構、執行 YRBS 2007 資料清洗與變數重編碼、
+  建立邏輯斯迴歸模型(Logistic Regression)、計算勝算比(OR)與信賴區間、
+  並設計產出獨立之核心數據視覺化圖表。
+
+[核心統計數據]
+- 研究樣本：YRBS 2007 有效樣本 (N = 11,144)
+- 自變數 (X)：騎乘自行車配戴安全帽習慣 (1: 總是戴, 0: 從不戴)
+- 應變數 (Y)：過去一年內參與身體打架衝突 (1: 有打架, 0: 從未打架)
+- 交叉描述性統計：
+  * 從不戴安全帽者打架率：41.73% (2,692 人 / 6,451 人)
+  * 總是戴安全帽者打架率：26.81% (1,258 人 / 4,693 人)
+- 邏輯斯迴歸指標：
+  * 迴歸係數 (Beta_1)：-0.6706
+  * 統計檢定值：Z = -16.154, P = 2.086e-60 (高度拒絕虛無假設 H0)
+- 勝算比分析 (Odds Ratio)：
+  * 最終勝算比 (OR)：0.5114
+  * 95% 信賴區間：[0.4714, 0.5549]
+
+[延伸洞察：安全守規人格特質]
+模型與數據分析揭示了青少年顯著的行為集群特徵：
+1. 風險降低效應：有配戴安全帽守規習慣的青少年，參與身體打架的勝算（Odds）
+   僅有從不配戴者的 0.51 倍，相當於大幅降低了近 49% 的暴力衝突參與風險。
+2. 行為特質集群：規律的安全守法行為與低暴力傾向在個體發展中具有高度共存性，
+   有力支持了青少年群體中存在「安全守規人格（Safety-First Persona）」的假說。
+
+[聲明]
+本研究為觀察性研究(Observational Study)，所得結論僅證實
+高度統計相關性(Association)，並不代表因果關係(Causality)。
+======================================================================
